@@ -6,4 +6,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 installs all prerequisites, must be run in both the root directory and the client directory
 
 ### `yarn start`
-Starts the app server and client. go to localhost:3000 to load the app.
+Starts the app server and client. go to http://localhost:3000 to load the app.
