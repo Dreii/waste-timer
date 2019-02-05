@@ -2,7 +2,7 @@ const request = require('./DBFunctions')
 const sqlite3 = require('sqlite3').verbose()
 
 module.exports = () => {
-  let db = new sqlite3.Database('./server/db/database.db', (err, msg)=>{
+  let db = new sqlite3.Database('./db/database.db', (err, msg)=>{
     if(err){
       return console.log(err.message)
     }

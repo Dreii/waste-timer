@@ -22,9 +22,9 @@ app.db = require('../db/createDB')()
 app.set("port", process.env.PORT || 3001);
 
 //Make sure we only serve static assets in production.
-if (process.env.NODE_ENV === "production") {
+// if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
-}
+// }
 
 //Set defaults for error handling.
 process.on('unhandledRejection', error => {
