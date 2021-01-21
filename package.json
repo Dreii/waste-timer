@@ -9,7 +9,7 @@
     "express": "^4.16.4",
     "npm-run-all": "^4.1.2",
     "react-loading": "^2.0.3",
-    "socket.io": "^2.1.1",
+    "socket.io": "^2.4.0",
     "sqlite3": "^4.0.4"
   },
   "scripts": {
